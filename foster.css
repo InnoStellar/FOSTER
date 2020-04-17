@@ -1,0 +1,56 @@
+body{
+background-image: linear-gradient(to bottom, lightblue 20%, plum 80%);
+font-family: 'Martel Sans', sans-serif; 
+}
+
+h1 { 
+
+    display: block;
+    font-size: 10em;
+    font-weight: bold;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+h2{
+  color:white;
+  font-size: 2em
+
+}
+p{
+  color:white;
+}
+  
+
+#task{
+  background-color:transparent;
+  color:#4e3d47;
+  font-weight: bold;
+  border:0px;
+  border-style: solid;
+  border-color: white;
+  border-radius:5px;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  font-size: 120%;
+  width:20%;
+  bottom: 5%;
+}
+
+#task:hover {
+  color:white;
+  background:#408acf;
+  transition-duration:0.9s;
+  font-size: 180%;
+  width:50%;
+  height: 50%;
+  
+}
+
+

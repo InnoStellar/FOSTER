@@ -1,0 +1,63 @@
+<html>
+
+  <head>
+    <title>Foster</title>
+    
+    <link rel ="stylesheet" href = "/trainer/trainercss">
+    <script src="/trainee/traineejs"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <table>
+    <tr>
+      <td>
+  Full Name:<br>
+    <input  type="text" name="firstname" placeholder=" Eg Jon Wick" id = "name" required><br>
+    </td>
+    <td>
+  Email: </br>
+    <input type = "text" id = "email" placeholder = "abc@example.com" required></br>
+  </td>
+    <td>
+  Average age of kids you are adopting:<br>
+    <input type="number" name="avekids" placeholder="Eg.16 "id = "kage" required ></br>
+    </td>
+    <td>
+  Number of female foster kids:<br>
+    <input type="number" name = "fkids" placeholder="Eg.3" id = "fkids" required ></br>
+    </td>
+    </tr>
+    <tr>
+      <td>
+  Number of male foster kids:<br>
+    <input type="number" name = "mkids" placeholder="Eg.3 "id = "mkids" required ></br>
+    </td>
+    <td>
+  Numer of foster kids:<br>
+    <input type="number" name = "kidsnames" placeholder="Eg.5" id  = "knames" required ></br>
+    </td>
+  <td> 
+  Location(City,State):<br>
+    <input type="text" name="location" placeholder = "Eg Buffalo,NY" id = "location" required ></br>
+    </td>
+  <td>
+  Ethnicity of Parent:<br>
+    <input type="text" name="ethnicity" placeholder ="Eg Latino" id = "ethnP" required>
+    </br>
+    </td>
+  <td>
+  Ethnicity of Child:<br>
+    <input type="text" name="ethnicity" placeholder ="Eg Latino" id = "ethnK" required>
+  </td>
+  </tr>
+</table>
+
+  <button id = "submit" onclick = "submitter();window.location.href = '/match'">
+  Find A Match Now!!!
+  </button>
+
+</br>
+</body>
+</html>
+
