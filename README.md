@@ -14,3 +14,10 @@ While we were building this project, we realized the limitations of the python b
 
 <h3>Future of FOSTER Project</h3>
 Since this service is solely volunteer-based, we hope that this platform can reach a wider base of audience and allow parents to connect to each other such that they can provide a better environment for their foster children.
+
+<h4>CREATORS/ INITIATORS</h4>
+<ul>
+  <li>Swastik Naik</li>
+  <li>Prakshal Jain</li>
+  <li>Priya Sonawane</li>
+  </ul>
